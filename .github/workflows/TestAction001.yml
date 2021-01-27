@@ -1,7 +1,8 @@
-myFirstAction:
-  on: push
+name: My First Action
+on: push
+jobs:
   job1:
-    name: First Job
+    name: Job 1
     runs-on: linux-latest
     steps:
-      run: date
+      - run: date
