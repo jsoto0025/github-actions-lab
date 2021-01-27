@@ -3,6 +3,6 @@ on: push
 jobs:
   job1:
     name: Job 1
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
     steps:
       - run: date
