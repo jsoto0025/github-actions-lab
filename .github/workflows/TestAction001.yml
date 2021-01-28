@@ -5,5 +5,9 @@ jobs:
     name: Job 1
     runs-on: ubuntu-latest
     steps:
-      - run:
+      - name: Step 1
+        run:
           echo "$GITHUB_REPOSITORY"
+      - name: Step 2
+          echo "${{ secret.TEST_SECRET }}"
+        
