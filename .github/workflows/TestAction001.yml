@@ -9,5 +9,6 @@ jobs:
         run:
           echo "$GITHUB_REPOSITORY"
       - name: Step 2
+        run:
           echo "${{ secret.TEST_SECRET }}"
         
