@@ -5,6 +5,5 @@ jobs:
     name: Job 1
     runs-on: ubuntu-latest
     steps:
-      - run:  
-          date
+      - run:
           echo "${{ env.GITHUB_REPOSITORY }}"
